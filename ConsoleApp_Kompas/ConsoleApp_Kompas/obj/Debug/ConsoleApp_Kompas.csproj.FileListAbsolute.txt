@@ -1,0 +1,12 @@
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\bin\Debug\ConsoleApp_Kompas.exe.config
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\bin\Debug\ConsoleApp_Kompas.exe
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\bin\Debug\ConsoleApp_Kompas.pdb
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\bin\Debug\KAPITypes.dll
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\bin\Debug\KAPITypes.pdb
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.csprojAssemblyReference.cache
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.csproj.CoreCompileInputs.cache
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.csproj.CopyComplete
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.exe
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.pdb
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\Interop.Kompas6Constants.dll
+C:\Users\Шаймарданов С М\Desktop\PROJECT_VS\exp\Console_Kompas\ConsoleApp_Kompas\ConsoleApp_Kompas\obj\Debug\ConsoleApp_Kompas.csproj.ResolveComReference.cache
