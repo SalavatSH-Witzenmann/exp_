@@ -19,6 +19,7 @@ namespace ConsoleApp_Kompas
         {
             _Activation actv = new _Activation();
             actv.act();
+            actv.stampi();
         }
     }
     class _Activation
@@ -31,13 +32,16 @@ namespace ConsoleApp_Kompas
         public ksStandartSheet standartSheet;
         public string str;
         public int SHEET_OPTIONS_EX = 4;
+        public ksTextItemParam textItemParam;
+        public ksStamp stamp;
+
 
         public void act()
         {
             Type c = Type.GetTypeFromProgID("KOMPAS.Application.5");
             kompas = (KompasObject)Activator.CreateInstance(c);
             documentParam = (ksDocumentParam)kompas.GetParamStruct((short)StructType2DEnum.ko_DocumentParam);
-            
+            //для активации нового листа и добавление рамки к чертежу
             documentParam.type = (int)DocType.lt_DocSheetStandart;
             documentParam.regime = 0;
             sheetPar = (ksSheetPar)documentParam.GetLayoutParam();
@@ -50,7 +54,7 @@ namespace ConsoleApp_Kompas
             standartSheet.multiply = 1;
             dock = (ksDocument2D)kompas.Document2D();
             dock.ksCreateDocument(documentParam);
-
+            
             //dock = (ksDocument2D)kompas.Document2D();                                                             // ДЛЯ СТАРОГО КОМПАСА
             //dock.ksCreateDocument(documentParam);                                                                 // ДЛЯ СТАРОГО КОМПАСА
             //sheetOptions = (ksSheetOptions)kompas.GetParamStruct((short)StructType2DEnum.ko_SheetOptions);        // ДЛЯ СТАРОГО КОМПАСА
@@ -65,12 +69,19 @@ namespace ConsoleApp_Kompas
                 
         }
 
-        //public void dokiact()
-        //{
+        public void stampi() // заполнение основной надписи
+        {
 
-        //    docpar.Init();
-        //    docpar.type = (int)DocType.lt_DocSheetStandart;
-        //    dock.ksCreateDocument(docpar);
-        //}           
+            textItemParam = (ksTextItemParam)kompas.GetParamStruct((short)StructType2DEnum.ko_TextItemParam);
+            stamp = (ksStamp)dock.GetStamp();
+            stamp.ksOpenStamp();
+            stamp.ksColumnNumber(1);                             // номер ячейки
+            textItemParam.s = "Рукав металлический типа RS";
+            stamp.ksTextLine(textItemParam);                     //занести текст
+            stamp.ksCloseStamp();
+
+        }
+           
+        
     }
 }
